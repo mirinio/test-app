@@ -3,14 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import {
+  ChartAllModule,
+  AccumulationChartAllModule,
+  RangeNavigatorAllModule,
+} from '@syncfusion/ej2-angular-charts';
+
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AccumulationChartAllModule,
+    RangeNavigatorAllModule,
+    ChartAllModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

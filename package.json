@@ -20,7 +20,17 @@
     "@angular/router": "^14.2.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "@syncfusion/ej2-angular-calendars": "^20.3.56",
+    "@syncfusion/ej2-angular-charts": "^20.3.57",
+    "@syncfusion/ej2-angular-filemanager": "^20.3.56",
+    "@syncfusion/ej2-angular-grids": "^20.3.57",
+    "@syncfusion/ej2-angular-inputs": "^20.3.57",
+    "@syncfusion/ej2-angular-navigations": "^20.3.57",
+    "@syncfusion/ej2-angular-notifications": "^20.3.56",
+    "@syncfusion/ej2-base": "^20.3.56",
+    "@syncfusion/ej2-data": "^20.3.56",
+    "@syncfusion/ej2-locale": "^20.3.56"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.6",
